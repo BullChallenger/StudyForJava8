@@ -85,7 +85,7 @@ class OrderedItem {
 
 @AllArgsConstructor
 @Data
-class Order {
+class   Order {
     private Long id;
     private List<OrderedItem> orderedItems;
 
